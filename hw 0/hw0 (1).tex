@@ -1,0 +1,99 @@
+\documentclass[12pt]{article}
+\setlength{\oddsidemargin}{0in}
+\setlength{\evensidemargin}{0in}
+\setlength{\textwidth}{6.5in}
+\setlength{\parindent}{0in}
+\setlength{\parskip}{\baselineskip}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage[]{algorithmicx}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\setlength{\headsep}{36pt}
+
+\usepackage{hyperref}
+
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\newcommand{\makenonemptybox}[2]{%
+%\par\nobreak\vspace{\ht\strutbox}\noindent
+\item[]
+\fbox{% added -2\fboxrule to specified width to avoid overfull hboxes
+% and removed the -2\fboxsep from height specification (image not updated)
+% because in MWE 2cm is should be height of contents excluding sep and frame
+\parbox[c][#1][t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule}{
+  \hrule width \hsize height 0pt
+  #2
+ }%
+}%
+\par\vspace{\ht\strutbox}
+}
+\makeatother
+
+\begin{document}
+%todo [points for homework 0]
+\lhead{{\bf CSCI 3104, Algorithms \\ Homework 0 (15 points)} }
+\rhead{Name: \fbox{Sasha Farhat
+\phantom{This is a really long name}} 
+\\ ID: \fbox{ 105887541
+\phantom{This is a student ID}} 
+\\ {\bf Escobedo \& Jahagirdar\\ Summer 2020, CU-Boulder}}
+\renewcommand{\headrulewidth}{0.5pt}
+
+\phantom{Test}
+
+\begin{small}
+%\textit{Advice 1}:\ For every problem in this class, you must justify your answer:\ show how you arrived at it and why it is correct. If there are assumptions you need to make along the way, state those clearly.
+%\vspace{-3mm} 
+
+%\textit{Advice 2}:\ Verbal reasoning is typically insufficient for full credit. Instead, write a logical argument, in the style of a mathematical proof.\\
+%\vspace{-3mm} 
+
+\textbf{Instructions for submitting your solution}:
+\vspace{-5mm} 
+
+\begin{itemize}
+	\item The solutions \textbf{should be typed}, we cannot accept hand-written solutions. Here's a short intro to \href{http://ece.uprm.edu/~caceros/latex/introduction.pdf}{\textbf{Latex}.}
+	\item We recommend using online Latex editor \href{https://www.overleaf.com/}{\textbf{Overleaf}}. Copy and paste the \textbf{.tex} file located in Canvas into the overleaf editor.
+	%todo add link of gradescope
+	\item You should submit your work through \href{https://www.gradescope.com}{\textbf{Gradescope}}  only.
+	\item If you don't have an account on it, sign up for one using your CU email. You should have gotten an email to sign up. If your name based CU email doesn't work, try the identikey@colorado.edu version. 
+	\item Gradescope will only accept \textbf{.pdf} files (except for code files that should be submitted separately on Canvas if a problem set has them) and \textbf{try to fit your work in the box provided}. 
+	\item You cannot submit a pdf which has less pages than what we provided you as Gradescope won't allow it.
+    \item Perform the task specified in the question and uncomment the text inside of the Latex source file \textbf{Yes, I did it} and submit the pdf on Gradescope.
+\end{itemize}
+\vspace{-4mm} 
+\end{small}
+
+\hrulefill
+\pagebreak
+
+\begin{enumerate}
+
+	\item	{\itshape (5 pts) Signup on \href{https://piazza.com/colorado/summer2020/310311320321}{Piazza}. Introduce yourself by commenting on the post \href{https://piazza.com/class/ka2roz7rb9m3j4?cid=7}{here} with your name, major, and interests.}
+	\makenonemptybox{3in}{%Yes, I did it
+	My name is Sasha Farhat. I am computer science major. In my free time I draw and play video games.
+	}
+	\item {\itshape (10 pts) Take the syllabus quiz on \href{https://canvas.colorado.edu/courses/62065/quizzes/110609}{Canvas}.}
+    \makenonemptybox{3in}{%Yes, I did it
+    I took the syllabus quiz.
+    }
+
+
+
+
+
+	
+\end{enumerate}
+
+
+\end{document}
+
+
