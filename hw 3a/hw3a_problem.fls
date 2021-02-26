@@ -1,0 +1,179 @@
+PWD f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a
+INPUT C:/Users/sasha/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.tex
+OUTPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.log
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/article.cls
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/size12.clo
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsmath.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amstext.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsgen.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsbsy.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsmath/amsopn.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amsfonts.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/amssymb.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphicx.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/keyval.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/graphics.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/trig.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/graphics.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-def/pdftex.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/algorithmicx/algorithmicx.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/algorithmicx/algorithmicx.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/ifthen.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/enumitem/enumitem.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/enumitem/enumitem.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyvrb/fancyvrb.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyvrb/fancyvrb.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/wasysym.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/wasysym.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/fancyhdr/fancyhdr.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hyperref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-hyperref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/hobsub-generic.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/ifxetex/ifxetex.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/auxhook.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/kvoptions.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/pd1enc.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/00miktex/hyperref.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/url/url.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/hpdftex.def
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/rerunfilecheck.sty
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.aux
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.aux
+OUTPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.aux
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/context/base/supp-pdf.mkii
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/epstopdf-base.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/oberdiek/grfext.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics/color.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/graphics-cfg/color.cfg
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/hyperref/nameref.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/generic/oberdiek/gettitlestring.sty
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+OUTPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+OUTPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.pdf
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/base/omscmr.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr8.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr6.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi8.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi6.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy8.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy6.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsa.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/amsfonts/umsb.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/uwasy.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/tex/latex/wasysym/uwasy.fd
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/wasy/wasy10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/wasy/wasy8.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/wasy/wasy6.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/sasha/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmr12.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbx12.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmmi12.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmsy10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmex10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/wasy/wasy10.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmti12.tfm
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmtt12.tfm
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/huffman.png
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/huffman.png
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/huffman.png
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/huffman.png
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/huffman.png
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/tfm/public/cm/cmbxti10.tfm
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.aux
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT f:/Users/sasha/Documents/Summer 2020/Algo/hw 3a/hw3a_problem.out
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
+INPUT C:/Users/sasha/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb
