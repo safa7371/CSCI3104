@@ -1,0 +1,40 @@
+
+bubblesort(v,w)
+	n = len(v)
+	\\instead of rearranging value and weight it keeps it ordered in a seperate array
+	sorted = list(range(n))
+
+	for i in range(n to 1)
+		for j in range(0, i)
+			\\if the ratio of the jth item > j+1 item then
+			if (v[sorted[j]] / w[sorted[j]]) < (v[sorted[j+1]] / w[sorted[j+1]])
+				temp = sorted[j]
+				sorted[j] = sorted[j+1]
+				sorted[j+1] = temp \\swap the items
+	return order
+
+maxWeight(v,w,n,W)
+	sorted = bubblesort(v,w) \\sort the items based on decreasing order ratio v/w
+
+	weight = 0
+	max_value = 0
+
+	\\looping through all items
+	for i =1  to n
+		\\ if the added weight isn't more than the maximum weight W
+		if weight <= W
+			max_value = max_value + sorted[i].v
+			weight = weight + sorted[i].w
+
+		\\if current item can't be added, add fractional part of it
+		else
+			remainingWeight = W - weight
+			//taking the fraction and adding to max_value
+			max_value = max_value + sorted[i].v * (remainingWeight / sorted[i].w)
+	return  max_value
+
+
+
+Time Complexity Average: O(n^2). If the items are already sorted into decreasing order
+then the Algorithm would have time complexity O(n).The space complexity is O(n) due to an
+array for storing the fractional ratios of items.

@@ -1,0 +1,38 @@
+
+randQuicksort(A, p, r)
+	if (p < r)
+		\\q is the partition index 	
+		q = randPartition(A, p, r)
+
+		\\seperatly sort elements before and after partition
+		randQuicksort(A, p, q - 1)
+		randQuicksort(A, q + 1, r)
+	return 
+
+
+randPartition(A, p, r) 
+	i = rand(p , r) // random integer between p and r
+	swap(A[p], A[r]) // swap corresponding element with last element
+	i = p-1 // index the smaller element 
+	x = A[r] // set the pivot
+
+	for (p<=r - 1)
+		\\if the element is smaller than the pivot
+		if A[p]<=x
+			i = i + 1
+			swap(A[i],A[p]) 
+	swap(A[i+1],A[r]) 
+	return i+1 
+
+
+rabbitTime(r, c)
+	n = len(r)
+
+	r = randQuickSort(r, 0, n-1) \\sorts rabbits
+	c = randQuickSort(c, 0, n-1) \\sorts the carrots
+
+	for i in range(n)
+		temp = abs(r[i] - c[i]) \\subtract distances
+		time = temp \\last elemented in list subtracted is the final time
+	return time
+	

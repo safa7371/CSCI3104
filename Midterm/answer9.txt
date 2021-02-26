@@ -1,0 +1,35 @@
+
+kthsmallest(A, k)
+	\\if k is smaller than the number of elements in the array
+	n = len(A)
+	if (k > 0 and k <= n)
+		q = randpartition(A, min, mx)
+
+		if q = k \\if the partition index is the same as k then
+			return A[q]
+
+		if q > k \\if the partition index is more than k then
+			\\recur for the left subarray
+			return kthsmallest(A[0,...,q-1], k)
+
+		else \\if the parition index is less than k then
+			\\recur for the right subarray
+			return kthsmallest(A[q + 1, ..., n - 1], k)
+
+\\picks random pivot between the min and max of 
+randpartition(A)
+	p = rand(min, max)
+	swap(A, 1 + p, max)
+	return partition(A, min, max)
+
+
+partition(A, min, max)
+	x = A[max]
+	i = min
+	
+	for j in range(min, max)
+		if(A[j] <= max)
+			swap(A, i, max)
+			i += 1
+	swap(A, i, max)
+	return q
