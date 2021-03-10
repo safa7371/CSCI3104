@@ -1,0 +1,60 @@
+class Solution(object):
+    def bfs(self, matrix, ocean, m, n):
+            #create the 4 directions we will be using when looking at each cell
+            direction = zip((1, 0, -1, 0), (0, 1, 0, -1))
+            #create a queue with our set from the specific ocean
+            queue = list(ocean)
+            
+            #while there are elements in our queue
+            while queue:
+                #create tuple for the initial pop
+                hx, hy = queue.pop(0)
+                
+                #for elements within our range
+                for dx, dy in direction:
+                    #i is the grid cord in x
+                    i = hx + dx
+                    #j is the grid cord in y 
+                    j = hy + dy
+                    
+                    if 0 <= i < m and 0 <= j < n:
+                        #check if the grid cord is greater than or
+                        #equal to the previous pop
+                        if matrix[i][j] >= matrix[hx][hy]:
+                            #check if not in the visted set
+                            if (i, j) not in ocean:
+                                queue.append((i, j))
+                                #add to our visited set
+                                ocean.add((i, j))
+    
+    def pacificAtlantic(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[List[int]]
+        """
+        #check to see if we are given a valid matrix
+        if not matrix:
+            return []
+        
+        #get the m x n dimmensions of the graph given
+        m = len(matrix) 
+        n = len(matrix[0])
+        
+        #set the top left edges for pacific
+        topEdge = [(0, y) for y in range(n)]
+        leftEdge = [(x, 0) for x in range(m)]
+        pacific = set(topEdge + leftEdge)
+        #use bfs to traverse through the set created in pacific
+        self.bfs(matrix, pacific, m, n)
+        
+        bottomEdge = [(m - 1, y) for y in range(n)]
+        rightEdge = [(x, n - 1) for x in range(m)]
+        atlantic = set(bottomEdge + rightEdge)
+        #use bfs to traverse through the set created in atlantic 
+        self.bfs(matrix, atlantic, m, n)
+        
+        #after bfs is called on both sets
+        #add pacific and atlantic to ourfinal results
+        result = pacific & atlantic
+        
+        return result

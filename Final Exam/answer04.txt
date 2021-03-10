@@ -1,0 +1,36 @@
+from collections import defaultdict 
+
+def beautifulRooms(arr,n):
+    
+    #counter for beautiful rooms
+    count = 0
+    #traverse through the array
+    for i in range(n+1): 
+        #Calculate the teleport room
+        t = (arr[i-1] % n)+ 1
+        #print("t: ",i,"()", t)
+	
+	#calculate if we can jump back from teleport room
+        k = (arr[t-1] % n) +1
+        #print("k: ",i, (), k )
+
+        #If we are able to teleport back and and
+	# if the room teleported to is not the intial room
+        if(i == k and i != t): 
+            #Increment count
+            count += 1
+        
+    return count
+   
+   
+#driver code 
+
+arr1 = [2,3,4,5]
+arr2 = [1,2,3,6]
+n1 = len(arr1)
+n2 = len(arr2)
+beautyrooms1 = beautifulRooms(arr1,n1)
+beautyrooms2 = beautifulRooms(arr2,n2)
+print (arr1, "The number of beautiful rooms: ", beautyrooms1 )
+print (arr2,"The number of beautiful rooms: ", beautyrooms2 )
+

@@ -1,0 +1,20 @@
+def f(input_value):
+    if input_value == 0:
+        return 2
+    elif input_value == 1:
+        return 1
+    elif input_value > 1:
+        return f(input_value -1) + f(input_value -2)
+
+
+def f_memo(input_value):
+    if input_value in fibonacci_cache:
+        return f_cache[input_value]
+    if input_value == 0:
+            value = 2
+    elif input_value == 1:
+            value = 1
+    elif input_value > 1:           
+            value =  f_memo(input_value -1) + f_memo(input_value -2)
+    f_cache[input_value] = value
+    return value

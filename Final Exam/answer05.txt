@@ -1,0 +1,66 @@
+
+# Perform BFS on graph g starting from vertex v
+def boulderBycicleChallenge(g, src, w):
+
+	#initialize k and maxweight
+	maxweight = 0
+	
+	# this is the queue we use for bfs
+	q = deque()
+
+	# add source vertex to set and push it into the queue
+	vertices = set([0])
+
+	#this is our initial starting point
+	q.append((src, 0, vertices))
+
+	# while queue 'q' is not empty
+	while q:
+
+		# pop the first node from queue
+		v, wpath, vertices = q.popleft()
+
+		# if the weight of the path is greater than our current weight then update the maxweight
+		if wpath> maxweight:
+			maxweight= max(maxweight, wpath)
+
+		# we check for the adjacent vertexes of the edge
+		for edge in self.graph[v]:
+			
+			#we want to check that the path chosen does not create a cycle
+			if visited[edge]==False:
+
+				# add current node into the path
+				s = set(vertices)
+				s.add(edge.dest)
+				#add the vertice to the queue
+				q.append((edge.dest, cost + edge.weight, s))
+		
+	#return boolean value comparing the maximum path weight found denoted (maxweight) and given s miles denoted (w)
+	if maxweight >= w:
+	    return True
+	if maxweight < w:
+	    return False
+
+if __name__ == '__main__':
+
+	# List of graph edges as per above diagram
+	edges = [Edge(0, 6, 11), Edge(0, 1, 5), Edge(1, 6, 3), Edge(1, 5, 5),
+		Edge(1, 2, 7), Edge(2, 3, -8), Edge(3, 4, 10), Edge(5, 2, -1),
+		Edge(5, 3, 9), Edge(5, 4, 1), Edge(6, 5, 2), Edge(7, 6, 9),
+		Edge(7, 1, 6)]
+
+	# Number of nodes in the graph
+	N = 10
+
+	# create a graph from edges
+	g = Graph(edges, N)
+
+	src = 0
+	w = 20
+
+	# Do modified BFS traversal from source vertex src
+	maxCost = modifiedBFS(g, src, w)
+
+	if maxCost != float('-inf'):
+		print(maxCost)

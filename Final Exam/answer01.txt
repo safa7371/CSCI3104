@@ -1,0 +1,39 @@
+def intervalmerge(arr): 
+		
+		# Sort the list of tuples in ascending order
+		sorted(arr, key = lambda x: x[0])
+		
+		#'m' counter is the ending point within array
+		m = 0
+		
+		#'count' will count how many times we merge 2 non
+		#overlapping schedules
+		count = 0
+		
+		#function that traverses through sorted array, and
+		#count the availble schedules that can be merged
+		for i in range(len(arr)): 
+			#create new array 'k' temp, which will use to compare, and
+			#temp store the current element within the array
+			k = arr[i] 
+			#if the element we are comparing is greater than previous value
+			if k[0] > m: 
+			    #case for the initial value
+				if i != 0: 
+					count += 1
+				#update m as the next value within array
+				m = k[1] 
+			else: 
+				if k[1] >= m: 
+					m = k[1] 
+					count+=1
+		
+		#'m' value gives the last element of 
+		# that particular interval 
+
+		print("The number of merged intervals: ", count)
+
+# Driver code 
+arr = [[2, 10], [9, 11], [15, 18], [3, 4], [17,19], [5, 13]] 
+intervalmerge(arr) 
+

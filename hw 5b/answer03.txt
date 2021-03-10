@@ -1,0 +1,81 @@
+class Graph: 
+
+	def __init__(self): 
+
+		# we created graph from list and must store
+		#it in python dictionary
+		self.graph = defaultdict(list) 
+
+	# function to add an edge to graph 
+	def addEdge(self,u,v): 
+		self.graph[u].append(v) 
+
+	# Function to print the count vertex k distance away from given initial given vertex 
+	def kdistBFS(self, s,k): 
+
+		# create boolean array (visited) and
+		# initially mark all the vertices as false or unvisted
+		visited = [False] * (len(self.graph)) 
+
+		# this will be our queue for bfs
+		queue = [] 
+		
+		#initialize the count to one because
+		#we count the initial node given
+
+		count = 1
+		# Mark the given node as true 
+		# or visited and enqueue it 
+		queue.append(s) 
+		visited[s] = True
+
+		while queue: 
+
+			# Dequeue vertex from queue
+			s = queue.pop(0) 
+
+			# enque through all the vertices within the neighboring visited node s
+			# using our boolean array we uda
+			for i in self.graph[s]: 
+				if visited[i] == False: 
+					#only count the vertices that are in range of k
+					queue.append(i) 
+					visited[i] = True
+					if i in range(k):
+					    count=count +1
+		print(count)
+
+
+g = Graph() 
+k= 3
+s = 4
+
+#built graph from example
+
+g.addEdge(1,2)
+g.addEdge(2,1)
+g.addEdge(2,6)
+g.addEdge(6,2)
+g.addEdge(6,7)
+g.addEdge(7,6)
+g.addEdge(2,3)
+g.addEdge(3,2)
+g.addEdge(8,3)
+g.addEdge(3,8)
+g.addEdge(3,9)
+g.addEdge(9,3)
+g.addEdge(9,10)
+g.addEdge(10,9)
+g.addEdge(3,4)
+g.addEdge(4,3)
+g.addEdge(4,5)
+g.addEdge(5,4)
+g.addEdge(5,11)
+g.addEdge(11,5)
+g.addEdge(11,12)
+g.addEdge(12,11) 
+
+print ("Number of vertices within K distance away from v_0 (cell 4)") 
+
+# call kdistBFS and prints the counted vertices
+g.kdistBFS(s,k) 

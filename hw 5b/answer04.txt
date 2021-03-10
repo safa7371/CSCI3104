@@ -1,0 +1,31 @@
+battery1 = 4
+battery2 = 3
+k = 2
+
+def batterysolver(amh1, amh2):
+    #prints the first call
+    print(amh1, amh2)
+    #if the residual is equal to the charge amount
+    if (amh1 == k):
+        return
+    
+    #if residual of battery2 is equal to the max of battery2
+    elif amh2 == battery2:
+        #recursivly call with residual of bat1 and 0 for bat2
+        batterysolver(amh1, 0)
+
+    #if the residual of battery01 is not 0
+    elif amh1 != 0:
+	#and if residual bat1 is less than what is remaining in bat2
+        if amh1 <= battery2 - amh2:
+            batterysolver(0, amh1 + amh2)
+
+	#else if the residual of bat1 is greater than what is remaining in bat2
+        elif amh1 > battery2 - amh2:
+            batterysolver(amh1 - (battery2 - amh2), amh2 + (battery2-amh2))
+
+    #if residual of bat1 is 0
+    else:
+        batterysolver(battery1, amh2)
+
+batterysolver(0,0) 

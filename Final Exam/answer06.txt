@@ -1,0 +1,31 @@
+
+#using recurrence and dynamic programming to maximize value
+
+def maxValueGame(arr, i, j,maxval):
+	# base case 01
+	if j == i:
+	    return max(arr[0], arr[1])
+	
+	# base case 02
+	if j == i + 1:
+		return max(arr[i], arr[j])
+
+	# we maximize our decisions and minimize the opponents
+	if maxval[i][j] == 0:
+	    # 'start' represents the maxiumum value from picking from the start of the arr
+	    start = arr[i] + min(maxValueGame(arr, i + 2, j,maxval), maxValueGame(arr, i + 1, j - 1,maxval))
+	    
+	    # 'end' represents the maximum value from picking at the end of the arr
+	    end = arr[j] + min(maxValueGame(arr, i + 1, j - 1,maxval), maxValueGame(arr, i, j - 2,maxval))
+	    
+	    # the maximum of the two choices is the optimal solution
+	    maxval[i][j] = max(start, end)
+	return maxval[i][j]
+
+
+# driver Code 
+arr = [22,43,10,20] 
+n = len(arr)-1
+maxval = [[0 for x in range(len(arr))] for y in range(len(arr))]
+value = maxValueGame(arr,0, n, maxval)
+print("Maximum value obtained: ", value)

@@ -1,0 +1,104 @@
+
+from collections import defaultdict 
+
+#class for the given graph
+class Graph: 
+	def KruskalMST(self): 
+
+		#array that will store the resultant mst
+		mstresult =[]
+
+		e = 0 # An index variable, used for result[] 
+
+		#we first sort all the edges ascending order by weight
+		self.graph = sorted(self.graph,key=lambda item: item[2]) 
+
+		parent = []
+		rank = [] 
+
+		# Create V subsets with single elements 
+		for node in range(self.V): 
+			parent.append(node) 
+			rank.append(0) 
+	
+		#'i' is our index variable for sorted edges
+		i = 0
+		
+		#'e' is index for number of edges
+		e = 0
+		
+		#while the current number of edges is less than graphed edges
+		while e < self.V -1 : 
+			#pick the first element,(since the graph is sorted). Traverse through elements
+			u,v,w = self.graph[i] 
+			i = i + 1
+			x = self.find(parent, u) 
+			y = self.find(parent ,v) 
+
+			# check for cycle, if it doesnt then add to mst
+			if x != y: 
+				e = e + 1	
+				mstresult.append([u,v,w]) 
+				self.union(parent, rank, x, y)			 
+			# Else discard the edge 
+
+		totw = 0
+		# print the contents of result[] to display the built MST 
+		print("MST")
+		for u,v,weight in mstresult: 
+			totw = totw + weight
+			print ("[",u ,",", v,"] =", weight)
+			
+		print("Total minimized connection cost: ",totw)
+	def __init__(self,vertices): 
+		self.graph = []
+		self.V= vertices 
+		
+
+	# function to add an edge to graph 
+	def addEdge(self,u,v,w): 
+		self.graph.append([u,v,w]) 
+
+	# path comparison to find the element i
+	def find(self, parent, i): 
+		if parent[i] == i: 
+			return i 
+		return self.find(parent, parent[i]) 
+
+	#union function for x and y
+	def union(self, parent, rank, x, y): 
+		xroot = self.find(parent, x) 
+		yroot = self.find(parent, y) 
+
+		# Attach smaller rank tree under root of higher rank tree
+		if rank[xroot] < rank[yroot]: 
+			parent[xroot] = yroot 
+		elif rank[xroot] > rank[yroot]: 
+			parent[yroot] = xroot 
+
+		# if ranks are the same, increment its rank by one 
+		else : 
+			parent[yroot] = xroot 
+			rank[xroot] += 1
+
+	# The main function to construct MST using Kruskal's algorithm 
+	
+
+# Driver code 
+#weighted undirected graph (picture drawn in 2a)
+g = Graph(8) 
+g.addEdge(0, 1, 2) 
+g.addEdge(0, 5, 6) 
+g.addEdge(0, 4, 1) 
+g.addEdge(1, 5, 7)
+g.addEdge(1, 2, 4)
+g.addEdge(1, 6, 7)
+g.addEdge(2, 6, 7) 
+g.addEdge(2, 3, 4)
+g.addEdge(2, 7, 9)
+g.addEdge(3, 7, 5)
+g.addEdge(6, 7, 12)
+g.addEdge(5, 6, 10)
+g.addEdge(4, 5, 12)
+
+g.KruskalMST() 

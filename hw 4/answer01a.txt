@@ -1,0 +1,8 @@
+def f(input_value):
+    if input_value == 0:
+        return 2
+    elif input_value == 1:
+        return 1
+    elif input_value > 2:
+        return f(input_value -1) + f(input_value -2)
+
